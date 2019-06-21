@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to show the ASPxPopupControl
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e55/)**
+<!-- run online end -->
 
 
 <p>This sample demonstrates several ways in which to show the ASPxPopupControl via a client-side or server-side event.</p><p><strong>See Also:</strong><br />
