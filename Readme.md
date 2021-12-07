@@ -13,17 +13,17 @@ This example demonstrates how to show the Popup Control.
 
 Handle a client-side or server-side event and call one of the following methods to show the [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl)'s pop-up window:
 
-* **[Show](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.Show)** or **[ShowWindow](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControl.ShowWindow(window))**  
-Invokes the default or specific pop-up window and displays it over a popup element with the specified index.
+* **[Show](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.Show)** / **[ShowWindow](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControl.ShowWindow(window))**  
+Displays the default/specific pop-up window at a popup element with the specified index. Use the [PopupHorizontalAlign](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.PopupHorizontalAlign), [PopupHorizontalOffset](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.PopupHorizontalOffset), [PopupVerticalAlign](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.PopupVerticalAlign), and [PopupVerticalOffset](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.PopupVerticalAlign) properties to specify the window's position relative to the element.
 
-* **[ShowAtElement](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.ShowAtElement(htmlElement))** or **[ShowWindowAtElement](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControl.ShowWindowAtElement(window-htmlElement))**  
-Invokes the default or specific pop-up window and displays it over the specified HTML element.
+* **[ShowAtElement](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.ShowAtElement(htmlElement))** / **[ShowWindowAtElement](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControl.ShowWindowAtElement(window-htmlElement))**  
+Displays the default / specific pop-up window over the specified HTML element.
 
-* **[ShowAtElementByID](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.ShowAtElementByID(id))** or **[ShowWindowAtElementByID](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControl.ShowWindowAtElementByID(window-id))**  
-Invokes the default or specific pop-up window and displays it over an HTML element with the specified identifier.
+* **[ShowAtElementByID](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.ShowAtElementByID(id))** / **[ShowWindowAtElementByID](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControl.ShowWindowAtElementByID(window-id))**  
+Displays the default / specific pop-up window over an HTML element with the specified identifier.
 
-* **[ShowAtPos](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.ShowAtPos(x-y))** or **[ShowWindowAtPos](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControl.ShowWindowAtPos(window-x-y))**  
-Invokes the default or specific pop-up window at the specified position.
+* **[ShowAtPos](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.ShowAtPos(x-y))** / **[ShowWindowAtPos](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControl.ShowWindowAtPos(window-x-y))**  
+Displays the default / specific pop-up window at the specified position.
 
 <!-- default file list -->
 
