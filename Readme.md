@@ -13,16 +13,12 @@ This example demonstrates various ways to display a default pop-up window.
 
 The [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl) creates a default popup window when the control's [Windows](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.Windows) collection is empty. You can change the default pop-up window's visibility on the server and client sides.
 
-### Server side
+Set the [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl)'s [ShowOnPageLoad](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControlBase.ShowOnPageLoad) property to **true** on the server to display the default pop-up window when a client browser loads the page.
 
-Set the [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl)'s [ShowOnPageLoad](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControlBase.ShowOnPageLoad) property to **true** to display a default pop-up window when a client browser loads the page.
-
-### Client side
-
-Call one of the following [ASPxClientPopupControl](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControl)'s methods to show the default pop-up window:
+Call one of the following [ASPxClientPopupControl](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControl)'s client-side methods to show the default pop-up window:
 
 * **[Show](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.Show)**  
-Displays the pop-up window at a popup element with the specified index. Use the [PopupHorizontalAlign](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.PopupHorizontalAlign), [PopupHorizontalOffset](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.PopupHorizontalOffset), [PopupVerticalAlign](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.PopupVerticalAlign), and [PopupVerticalOffset](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.PopupVerticalAlign) properties to specify the window's position relative to this element.
+Displays the pop-up window at a popup element with the specified index. Use the [PopupHorizontalAlign](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.PopupHorizontalAlign), [PopupHorizontalOffset](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.PopupHorizontalOffset), [PopupVerticalAlign](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.PopupVerticalAlign), and [PopupVerticalOffset](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.PopupVerticalAlign) properties to specify the window's position relative to the element.
 
 * **[ShowAtPos](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.ShowAtPos(x-y))**  
 Displays the pop-up window at the specified position.
