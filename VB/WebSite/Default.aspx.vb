@@ -8,8 +8,7 @@ Imports System.Web.UI
 Imports System.Web.UI.WebControls
 Imports System.Web.UI.WebControls.WebParts
 Imports System.Web.UI.HtmlControls
-Imports DevExpress.Web.ASPxEditors
-Imports DevExpress.Web.ASPxCallbackPanel
+Imports DevExpress.Web
 
 Partial Public Class ASPxperience_PopupControl_HowToShowPopupControl_HowToShowPopupControl
     Inherits System.Web.UI.Page
@@ -32,7 +31,7 @@ Partial Public Class ASPxperience_PopupControl_HowToShowPopupControl_HowToShowPo
         pcPopup.ClientSideEvents.Init = "function(s, e) { s.ShowAtElementByID('radioButtonListPopupAnchor'); }"
     End Sub
 
-    Protected Sub OnCallback(ByVal source As Object, ByVal e As DevExpress.Web.ASPxCallback.CallbackEventArgs)
+    Protected Sub OnCallback(ByVal source As Object, ByVal e As DevExpress.Web.CallbackEventArgs)
         e.Result = String.Format("{0};{1};{2}", spnLeft.Number, spnTop.Number, txtContentText.Text)
     End Sub
 End Class

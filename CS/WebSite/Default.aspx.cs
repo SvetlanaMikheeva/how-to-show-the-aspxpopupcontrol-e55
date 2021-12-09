@@ -8,8 +8,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
-using DevExpress.Web.ASPxEditors;
-using DevExpress.Web.ASPxCallbackPanel;
+using DevExpress.Web;
 
 public partial class ASPxperience_PopupControl_HowToShowPopupControl_HowToShowPopupControl : System.Web.UI.Page {
     protected void Page_Load(object sender, EventArgs e) {
@@ -30,7 +29,7 @@ public partial class ASPxperience_PopupControl_HowToShowPopupControl_HowToShowPo
         pcPopup.ClientSideEvents.Init = @"function(s, e) { s.ShowAtElementByID('radioButtonListPopupAnchor'); }";
     }
 
-    protected void OnCallback(object source, DevExpress.Web.ASPxCallback.CallbackEventArgs e) {
+    protected void OnCallback(object source, DevExpress.Web.CallbackEventArgs e) {
         e.Result = string.Format("{0};{1};{2}", spnLeft.Number, spnTop.Number, txtContentText.Text);
     }
 }
