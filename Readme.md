@@ -9,6 +9,8 @@
 <!-- run online end -->
 This example demonstrates various ways to display a default pop-up window.
 
+![Popup window](popup-window.png)
+
 ## Overview
 
 The [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl) creates a default pop-up window when the control's [Windows](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl.Windows) collection is empty. You can change the default pop-up window's visibility on the server or client.
@@ -31,7 +33,7 @@ Displays the pop-up window over an HTML element with the specified identifier.
 
 <!-- default file list -->
 
-## Files to look at
+## Files to Look At
 
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
